@@ -7,7 +7,7 @@ body {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, purple, white);
 }
 
 main {
@@ -28,20 +28,20 @@ h1 {
 }
 
 .message-container {
-    color: darkorange;
+    color: purple;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 button {
-    font-size: 1.5em;
-    margin-right: 10px;
-    border-radius: 10px;
+    font-size: 2.0em;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
 #flip,
 #roll {
-    background: linear-gradient(to bottom left, lightblue, white);
+    background: linear-gradient(to bottom left, rgba(0, 0, 139, 0.438), white);
 }
 
 #flip:hover,
@@ -50,18 +50,18 @@ button {
 }
 
 #clear {
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, , rgb(107, 23, 23));
 }
 
 #clear:hover {
-    background: linear-gradient(to bottom left, red, orange);
+    background: linear-gradient(to bottom left, red,purple);
 }
 
 /* Scoreboard Styles */
 table, 
 th, 
 td {
-    border: 1px solid darkorange;
+    border: 1px solid darkorchid;
     margin: 0 auto;
 }
 
